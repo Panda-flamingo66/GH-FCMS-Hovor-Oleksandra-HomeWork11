@@ -1,0 +1,44 @@
+button {
+  background: none;
+  border: 0px;
+  color: black;
+  font-size: 15px;
+  font-family: sans-serif;
+  cursor: pointer;
+  float: right;
+  margin: 8px auto;
+}
+
+button:hover {
+  color: black;
+}
+
+#add:hover {
+  border-radius: 14px;
+  border: 1px solid #ddd;
+}
+
+#add {
+  float: right;
+  padding: 10px;
+  margin-top: 0;
+  border: 1px solid #ffffff;
+}
+label[for='new-task'] {
+  display: block;
+  margin: 0 0 20px;
+}
+li > label {
+  font-size: 18px;
+  line-height: 40px;
+  width: 237px;
+  padding: 1px 0 0 11px
+}
+
+ul li.editMode label {
+  display: none;
+}
+
+button.checkbox {
+  float: left;
+}

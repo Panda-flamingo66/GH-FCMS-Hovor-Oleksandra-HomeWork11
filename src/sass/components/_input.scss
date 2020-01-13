@@ -1,0 +1,52 @@
+input[type="text"] {
+  margin: 1px 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 25px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: sans-serif;
+  color: black;
+}
+
+input[type="text"]:focus {
+  color: black;
+}
+input#new-task {
+  float: left;
+  width: 50%;
+}
+li > input[type="checkbox"] {
+  margin: 0 10px;
+  position: relative;
+  top: 15px;
+  transform: scale(1.5);
+}
+
+li > input[type="text"] {
+  width: 457px;
+}
+
+li > .delete:hover {
+  color: #CF2323;
+}
+li > .edit:hover {
+  color: #CF2323;
+}
+li > .save:hover {
+  color: #CF2323;
+}
+
+#finished-tasks label, #finished-tasks button {
+  text-decoration: line-through;
+  color: white;
+}
+ul li input[type=text] {
+  display: none;
+}
+
+ul li.editMode input[type=text] {
+  display: block;
+}

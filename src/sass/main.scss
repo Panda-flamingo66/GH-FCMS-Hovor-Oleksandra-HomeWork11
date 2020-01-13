@@ -1,0 +1,15 @@
+@import 'utils/variables';
+
+@import "bootstrap";
+
+@import 'base/basic';
+
+@import 'components/icons';
+@import 'components/buttons';
+@import 'components/input';
+
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'pages/home';

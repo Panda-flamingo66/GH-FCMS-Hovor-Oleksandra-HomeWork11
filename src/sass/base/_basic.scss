@@ -1,0 +1,54 @@
+body{
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+  background-repeat: repeat;
+  background-position: 0 0;
+  font-family: 'Courgette', cursive;
+}
+.container {
+  display: block;
+  width: 50%;
+  margin: 100px auto 0;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 20px 16px 30px;
+}
+ul {
+  margin: 5px 0;
+  padding: 0;
+}
+
+li * {
+  float: left;
+}
+
+li, h2 {
+  clear: both;
+  list-style: none;
+}
+input, button {
+  outline: none;
+}
+h2 {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  border-bottom: 2px solid black;
+  padding: 10px 0;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+p > button:hover {
+  color: #0FC57C;
+}
+
+li {
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+}
+
+li > input[type="checkbox"] {
+  margin: 0 10px;
+  position: relative;
+  top: 15px;
+  transform: scale(1.5);
+}
